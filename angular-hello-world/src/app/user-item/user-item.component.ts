@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class UserItemComponent {
 
+  name: string;
+
+  constructor() {
+    this.name = 'Felipe';
+  }
+
 }
